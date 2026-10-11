@@ -1,4 +1,52 @@
-food='mango my favourite fruit'
+foint=12
+int1=44
+iint=int+int1
+print('sum_is',iint)
+print(type(iint))
+flo=3.5
+flo1=6.4
+fflo=flo+flo1
+print('sum_is',fflo)
+iiint=int-int1
+print("sub",iiint)
+iiiint=int*int1
+print('multiple',iiiint)
+iiiiint=int/int1
+print('divide', iiiiint)
+#same as float
+#start float vs int
+iflo=int1+flo1
+print('sum_is',iflo)
+iflo1=int1-flo1
+print('sub', iflo)
+iflo2=int*flo
+print('multiply',iflo2)
+iflo3=int/flo1
+print('division',iflo3)
+#a=45
+#b+=54
+a1=34553
+b1=35544
+print(a1+b1)
+num=a1/b1
+print(round(num))
+print(round(num))
+print(abs(num))
+print(pow(4,4))
+my=15
+ym=32
+print(my*ym,my+ym,my+ym,ym/my)
+print(pow(my,ym))
+pns=10
+pns+=10
+pns+=12
+pns*=12
+print(pns)
+i=466
+l=456
+y=l*i
+print(y*4*677777**76)
+print(345*'horsepower'*4)od='mango my favourite fruit'
 print("my favourite fruit is:" ,food)
 rupees=120
 total_food='mango'+" " +'apple'+" "+'pineapple'
