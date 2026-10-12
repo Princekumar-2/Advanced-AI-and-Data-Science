@@ -1,4 +1,26 @@
-foint=12
+print(bool(1))
+print(type(True))
+print(3==3)
+print(4<=5)
+num=2546555666
+num1=5456778
+num2=1346776668875
+if num<=num2:
+    print('num is greater than num1')
+elif num>=num2:
+    print('num is smaller than num1')
+elif num==num1:
+    print('both are equal')
+elif num!=num1:
+    print('Both are different')
+else:
+    print('number is nice')
+print(bool('True'))
+p=1000
+if p >= 100:
+    print('your number is more')
+else:
+    print('please enter another number')foint=12
 int1=44
 iint=int+int1
 print('sum_is',iint)
