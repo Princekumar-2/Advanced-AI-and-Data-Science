@@ -1,4 +1,114 @@
-print(bool(1))
+def subtract_num():
+    print(34-45)
+subtract_num()
+def add():
+    print(3543444+7555666)
+add()
+def multiple ():
+    print(6545*567)
+multiple ()
+def divide():
+     print(4554554554544555455/5)
+divide ()
+def add(a,b):
+    print(a+b)
+add(12 ,45) 
+def mul(f,g):
+    print(f*g)
+mul(27,766)
+def add(d,s):
+    return d + s
+sum=add(288282,388383)
+print(sum)
+def wow(red,blue):
+    return red +blue
+pair=wow(277373,838384)
+print(pair)
+def add( a,  p):
+    result = a + p
+    return  result
+total=add(34,79)
+print(total)
+#name=input("your name is?")
+#print(name)
+def multiple(a,p):
+    print(2*3)
+multiple(2,3)
+def sub():
+    print(4-8)
+sub()
+def power():
+    print(4555*56676)
+power()
+print(int(7665.776))
+#neo=input('name')
+def neo():
+    print('prince')
+neo()
+def syn(a,b):
+    print(a+b)
+syn(3,567777)
+def i (d,j):
+    result = d*j
+    return result
+into=i(66,46)
+print(into)
+def neonce():
+    print('tech Empire')
+neonce()
+def neo(t,u):
+    neo = t+u
+    return neo
+i= neo(45,76)
+print(i)
+a=int(input('Please enter a number:        a '))
+b=int(input('Please enter another number:          b'))
+def add_num(a,b):
+     result=a+b
+     return result
+add=add_num(a,b)
+print(add)
+def into():
+    print('3'+'4')
+into()
+def toy(a,b):
+    result=a*b
+    neo=result
+    prince=neo
+    return prince
+total_into=toy(4,864474447556)
+print(total_into)
+def meet(name='guest'):
+    print('hello : '+name)
+meet()
+meet(' prince neo synapse')
+x =3444
+def inner():
+     x = 20 
+     print(x)
+inner()
+def name(name=' : prince'):
+    print('hello '+name)
+name()
+name('hello')
+x =10
+def sum(p,n):
+    print(x)
+    result=p+n
+    return result
+sum=sum(99,99)
+print(sum)
+def subtract():
+    print(5-4)
+subtract()
+def add(w,r):
+    print(w+r)
+add(4666,5677)
+def mul(a,b):
+    result=a*b
+    return result
+my_product=mul(3,5)
+print(my_product)print(bool(1))
 print(type(True))
 print(3==3)
 print(4<=5)
