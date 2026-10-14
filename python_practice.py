@@ -1,4 +1,103 @@
-def subtract_num():
+my_list=["name", "prince", "home", "maner",       "school", "kilometres"]
+my_list[2:5]
+print(my_list)
+list_my=['name','prince neo synapse','house','maner <patna <bihar <india']
+list=['city','patna','dream','very powerful boy']
+print(list_my[0],list_my[-3])
+print(list_my[3],list_my[2])
+print(list_my, type(list_my))
+print(len(list_my))
+print("name" in list_my)
+list[0]='real name'
+print(list)
+del list_my[0]
+print(list)
+list[0]='name of name'
+print(list, type(list))
+name = 'prince'
+print(list)
+list=['name','neo',['neonce','neosyn'],'prince']
+list[2][0]='my_company'
+print(list)
+name, *rest = my_list
+print(rest)
+print(name)
+list.append(16)
+print(list)
+work=['math','problem','solve','questions']
+work.append('solving a complex problems')
+print(work)
+problem = ['solving a big problem']
+list.extend(work)
+print(list)
+my_list.append(problem)
+print(my_list)
+my_list,work.extend(problem)
+print(my_list,work)
+my_list.remove("name")
+print(list,my_list,problem,work,type(list))
+list.pop(3)
+print(list)
+li=['my','prince','dolphin','element','neonce','uranus']
+print(li)
+print(li[2])
+del li[0]
+print(li)
+print(li.append(['months','dragon']))
+print(li.extend(['monster','popular']))
+print(li)
+print(len(li))
+li.pop(2)
+print(li)
+print(li.append('neonce'))
+print(li.extend('neosyn'))
+marks=['prince',88.4,'neo',99,'synapse',100,'prince neo synapse']
+print(marks)
+marks[1]
+print(marks)
+#del marks
+print(marks)
+print(len(marks))
+print(marks.append('99'))
+print(marks)
+print(marks.extend(['prince neo synapse']))
+print(marks)
+print(marks.clear())
+mark=['prince',1,2,3,4,5,6,7,8,9,10]
+print(mark.insert(9,8.5))
+print(mark)
+name,*rest=mark
+print(name,rest)
+print(mark.insert(4,5.5))
+fan=['toofan','crompton','bldc','condenser','very_fast_fan']
+bulb=['led','glass_bulb','torch','mobile_bulb']
+no=[1,4,3,5,2,6,7,8,7,6,4,8,9,11,22,33,344,444,4,44,44444,4444444,5]
+print(no,type(no),len(no),5 in no)
+print(fan,bulb,type(fan),type(bulb))
+fan.append('big_fan')
+print(fan)
+fan.append(bulb)
+print(fan)
+print(fan,bulb)
+fan.extend('bulb')
+print(fan)
+print('crompton' in fan)
+print('led' in bulb)
+print(len(fan),len(bulb),type(fan),type(bulb))
+no.insert(2,4.5)
+print(no*15)
+print(bulb+fan+no)
+fan.remove('crompton'),bulb.remove('led')
+print(fan,bulb)
+fan.pop(1)
+print(fan)
+no.sort(reverse=True)
+print(no)
+no.sort()
+print(no)
+print(no+no)
+print(fan,bulb,no,my_list,list_my,list,marks)
+print(len(fan),len(no),len(bulb))def subtract_num():
     print(34-45)
 subtract_num()
 def add():
