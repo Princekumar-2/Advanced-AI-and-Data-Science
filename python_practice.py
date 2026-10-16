@@ -1,4 +1,114 @@
-shop=('1','2','name','neo','pns','home')
+car_types=['taxi','rolls royal','defendet','bike','aeroplane','railways', 'bicycle']
+for car in car_types:
+    print(car)
+for car in car_types:
+    print(car)
+marks_terminal=['43','48','41','44','47']
+for marks in marks_terminal:
+    print(marks)
+for mark in marks_terminal:
+    print(mark)
+car_man_marks_gain=['spiderman','benten','topper','enterpreneur']
+for car_marks in car_man_marks_gain:
+    print(car_marks)
+for car in 'car_types':
+    print(car)
+for x in 'proper to be everyone':
+    print(x)
+for p in [2,4,5,3]:
+    print(p)
+for car in car_types:
+    for marks in marks_terminal:
+        print(car, marks)
+games=['hill figure','worm zone','suduku','traffic run','hunter assisian']
+players=['american','Indian','chinese','france','england']
+for game in games:
+    for player in players:
+        print(game,player)
+#secret_number=10
+#guess=0
+#while guess != secret_number:
+  #  guess=int(input('guess no (0-200):'))
+    #if guess != secret_number:
+      #  print('try again')
+#print('you got it!')
+x=95
+while x <=100:
+    print(x)
+    x += 1
+for game in games:
+    if game == 'traffic run':
+        break
+    print(game)
+for game in games:
+    if game == 'hill figure':
+        continue 
+    print(game)
+for marks in marks_terminal:
+    print(marks)
+for x in range(5):
+    print(x)
+else:
+    print('completed')
+for x in range(45):
+    if x ==20:
+        break
+    else:
+         print('thank you')
+name=['Prince','issac','Einstin', 'vinci']
+for words in name:
+    for letters in words:
+        if letters. lower() in 'aeiou':
+            print(f"{words}:true it really contain vowel letters")
+            continue 
+    else:
+            print(f"{words}:don\'t start with vowel")
+door=['wet','dry','moisture','platinum','ply','gold','tin','blue','intermediate','stronger']
+number_size=[21,34,56,78,75,86,87,97,76,55]
+print(door,number_size)
+for char_of_door in door:
+     print(char_of_door)
+for size in number_size:
+    print(size)
+for letters in 'prince neo synapse\'neonce\'neosyn\'company':
+    print(letters)
+#x=int(input('please fill a number'))
+while x <=84:
+      print(x)
+      x +=2
+x=125
+while x >=345:
+      print(x)
+      x-=1
+for i in range(5):
+    print(1)
+for i in range(1000):
+    print(1)
+for p in range(12345):
+    print(p)
+for n in range(12345):
+    print('hello') 
+for s in range(75):
+    if s ==7:
+        continue 
+    print(s)
+for m in range(345678):
+    if m == 34567:
+        break
+        continue 
+    print(m)
+for p in range(1111,1111341,200):
+    print(p)
+for l in range(1,345,6):
+  print(l)  
+for t in 'python':
+  print(t)  
+for i in range(12345,12345678912345778888888886654433333455666,112346786550988775543212345):
+    print(i)
+  
+      
+        
+ shop=('1','2','name','neo','pns','home')
 print(shop*7)
 print(shop[2])
 print(shop)
