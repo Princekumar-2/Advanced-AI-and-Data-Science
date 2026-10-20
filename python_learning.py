@@ -1,4 +1,40 @@
-mobile=['poco','redmi','iphone','vivo','samsung','realme']
+mosquare=[num ** 2 for num in numbers]
+print(square) 
+result=[(num,"even")if num % 2==0
+else (num,"odd")for num in numbers]  
+print(result)
+def is_long_mobile(mobile):
+    return len(mobile)>4
+long_mobiles=list(filter(is_long_mobile,mobile))
+print(long_mobiles)
+languages=['hindi','russian','english','local languages']
+for index,language in enumerate(languages,0):
+    print(f'{index} is {languages}')
+for index,place in enumerate(school):
+    print(f"{index} in place of {place}")
+for place, language in zip(school,languages):
+    print(f"{place}   to  {language}")
+for phone,place in zip(mobile,school):
+     print(f"we know that {phone} is in your {place}" )
+even_numbers = [ ]
+for num in range(12):
+    if num % 2 == 0:
+        even_numbers.append(num)
+print(even_numbers)
+even_num=[num for num in range(17) 
+    if num % 2 ==0]
+print(even_num)
+numb=[1,2,3,4,5,5,5,66,66,6,6,6,6,6,6,7]
+even_num=[num for num in numb if num % 2== 0]
+print(even_num)
+up=['purpose','moderate','ghost','patna','house']
+toy=['doll','rat','zoombie','green']
+for index,ewe in enumerate(up,1):
+    print(index,ewe)  
+for a,b in zip(up,toy):
+    print(up,toy) 
+for index,(a,b) in enumerate(zip(up,toy),2):
+    print(index,a,b)    bile=['poco','redmi','iphone','vivo','samsung','realme']
 for index, phone in enumerate(mobile):
     print(f"index {index},phone {phone}")
 school=['maner','patna','shantinager','road side', 'villager student']
