@@ -1,1 +1,31 @@
-
+_dict={'name':'prince', 'work':'coding', 'real':'student','_name':'Neo synapse','future':['tech-umpire','computer_expert','tech_genius']}
+print(_dict)
+print(_dict['name'])
+print(_dict["_name"])
+print()
+prince=dict([('name','prince neo synapse'),('genius','mixture of all scientist')])
+print(prince)
+print(prince['genius'])
+print(prince. get('real'))
+print(prince. get('real','5.8'))
+print(prince. keys())
+print(_dict.keys())
+print(prince .values())
+print(_dict.values())
+print(prince. items())
+print(_dict.items())
+print(prince. pop('name'))
+print(_dict.pop('name'))
+#print(prince. clear())
+#print(_dict.clear())
+print(prince. popitem())
+print(_dict.popitem())
+print(prince.update({'Name of genius':'Prince Neo Synapse','Brain power':'mixture of all scientist'}))
+print(prince)
+neo={'laptop':20000,'plane':1000000000,'building':100000000,'car':1000000,'business':100000,'product_launching':100000,'time_cost':100000}
+for cost in neo. values():
+    print(cost)
+for products in neo. keys():
+    print(products)
+for total in neo. items():
+    print(total)
