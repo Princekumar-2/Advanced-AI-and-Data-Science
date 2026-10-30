@@ -1,3 +1,60 @@
+    print(total)
+for products , price in neo. items():
+    print(products,price)
+for things , price in neo.items():
+     neo[things] = round(price * 2)
+print(things)
+for products in enumerate(neo):
+    print(products)
+#set
+pr_set={0,1,2,3,4,5,6,7,8,9}
+ne_set={0,3,5,4,7,5,4,9,4,3}
+print(pr_set)
+print(ne_set)
+print(pr_set.add(15))
+#print(pr_set.clear())
+pr_set.remove(4)
+print(pr_set)
+pr_set.discard(5)
+print(pr_set)
+pr_set.discard(100)
+print(pr_set)
+ne_set.issubset(pr_set)
+print(pr_set)
+p_n={'girl':'woman','boy':'man','timid':'fearless'}
+print(p_n)
+print(p_n.keys())
+print(p_n.values())
+print(p_n.pop('girl'))
+print(p_n.popitem())
+print(p_n.items())
+for index,(keys,values) in enumerate(p_n.items()):
+    print(index,keys,values)
+my_set={1,2,3,4,5,6,7,8,9}
+your_set={9,8,7,6,5,4,3,2,1}
+my_set.add(31)
+print(my_set)
+your_set.add(-1)
+print(your_set)
+your_set.remove(3)
+print(your_set)
+your_set.discard(56)
+print(your_set)
+#my_set.clear()
+print(my_set)
+print('5' in my_set)
+print(my_set | your_set)
+print(my_set & your_set)
+print(my_set - your_set)
+print(my_set ^ your_set)
+neo=[('prince',17),('neo',17),('prince neo',16),('prince neo synapse',18)]
+print(dict(neo))
+neo=dict([('prince',17)])
+print(neo)
+
+
+
+
 _dict={'name':'prince', 'work':'coding', 'real':'student','_name':'Neo synapse','future':['tech-umpire','computer_expert','tech_genius']}
 print(_dict)
 print(_dict['name'])
