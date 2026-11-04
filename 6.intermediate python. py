@@ -1,4 +1,15 @@
-car_types=['taxi','rolls royal','defendet','bike','aeroplane','railways', 'bicycle']
+cprint("=== Personal Profile ===")
+
+name = input("Name: ")
+city = input("City: ")
+food = input("Favorite food: ")
+hobby = input("Hobby: ")
+
+print("\n--- Profile ---")
+print(f"Name: {name}")
+print(f"City: {city}")
+print(f"Favorite food: {food}")
+print(f"Hobby: {hobby}")ar_types=['taxi','rolls royal','defendet','bike','aeroplane','railways', 'bicycle']
 for car in car_types:
     print(car)
 for car in car_types:
