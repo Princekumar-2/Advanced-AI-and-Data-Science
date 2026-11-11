@@ -1,3 +1,162 @@
+num1=int(input('please enter your favourite number b\w 0 to 100.'))
+num2=int(input('please enter your another number b\w 0 to 100.'))
+if num1>=num2:
+    print('your favorite number is the best number.')
+else:
+    print('your number is less than your 1st favorite number.')
+
+
+#print('through mobile')
+#num1=int(input('please enter your favourite number b\w 0 to 100.'))
+#num2=int(input('please enter your another number b\w 0 to 100.'))
+#if num1>=num2:
+    #print('your favorite number is the best number.')
+#else:
+    #print('your number is less than your 1st favorite number.')
+
+
+#print('through mobile')
+#numpy
+import numpy as np
+arr1=np. array([100])
+print(arr1)
+print(arr1.ndim)
+print(arr1. shape)
+print(arr1.size)
+print(arr1.dtype)
+print(arr1.itemsize,'bytes')#byzes me already hai.
+print(arr1[0])
+print([0,0])
+arr1[0]=1000000
+print(arr1)
+print(arr1.ndim,arr1.shape,arr1.size,arr1.dtype,arr1.itemsize)
+arr2=np. array([10,20,30,40,50])
+print(arr2)
+print(arr2. ndim)
+print(arr2. shape)
+print(arr2. size)
+print(arr2.dtype)
+print(arr2.itemsize)
+print(arr2[3])
+print (arr2[2:4])
+arr2[2]=200
+print(arr2)
+print(arr2.ndim,arr2.shape,arr2.size,arr2.dtype,arr2.itemsize)
+arr3=np. array([[12,45,67],[23,76,56]])
+print(arr3)
+print(arr3. ndim)
+print(arr3. shape)
+print(arr3. size)
+print(arr3.dtype)
+print(arr3.itemsize)
+print(arr3[1,2])
+print(arr3[0:1])
+print(arr3[1,2])
+arr3[1,1]=33
+print(arr3)
+arr4=np. array([[[12,34,56],[12,56,34]],[[12,34,45],[12,34,56]]])
+
+print(arr4)
+print(arr4. ndim)
+print(arr4. shape)
+print(arr4. size)
+print(arr4. dtype)
+print(arr4. itemsize)
+print(arr4[0,1,2])
+print(arr4[1,1:1])
+
+#numpy
+
+import numpy as np
+arr1=np. array([100])
+print(arr1)
+print(arr1.ndim)
+print(arr1. shape)
+print(arr1.size)
+print(arr1.dtype)
+print(arr1.itemsize,'bytes')#byzes me already hai.
+print(arr1[0])
+print([0,0])
+arr1[0]=1000000
+print(arr1)
+print(arr1.ndim,arr1.shape,arr1.size,arr1.dtype,arr1.itemsize)
+arr2=np. array([10,20,30,40,50])
+print(arr2)
+print(arr2. ndim)
+print(arr2. shape)
+print(arr2. size)
+print(arr2.dtype)
+print(arr2.itemsize)
+print(arr2[3])
+print (arr2[2:4])
+arr2[2]=200
+print(arr2)
+print(arr2.ndim,arr2.shape,arr2.size,arr2.dtype,arr2.itemsize)
+arr3=np. array([[12,45,67],[23,76,56]])
+print(arr3)
+print(arr3. ndim)
+print(arr3. shape)
+print(arr3. size)
+print(arr3.dtype)
+print(arr3.itemsize)
+print(arr3[1,2])
+print(arr3[0:1])
+print(arr3[1,2])
+arr3[1,1]=33
+print(arr3)
+arr4=np. array([[[12,34,56],[12,56,34]],[[12,34,45],[12,34,56]]])
+print(arr4)
+print(arr4. ndim)
+print(arr4. shape)
+print(arr4. size)
+print(arr4. dtype)
+print(arr4. itemsize)
+print(arr4[0,1,2])
+print(arr4[1,1:1])
+
+
+
+#array creation
+import numpy as np
+arr1=np. zeros(5)
+print(arr1)
+arrr1=np.zeros(45)
+print(arrr1)
+arr1=np.zeros((4,5))
+print(arr1)
+arr2=np. zeros((2,6))
+print(arr2)
+
+arr3=np. ones(4)
+print(arr3)
+
+arr4=np. ones((2,4))
+arr5=np. empty (6)
+print(arr5)
+arr6=np. full((2,6),10)
+print(arr6)
+arr7=np. arange(2 , 9)
+print(arr7)
+arr8=np. linspace((2,5),10)
+arr9=np. identity(6)
+print(arr9)
+arr10=np. identity (15)
+print(arr10)
+arr11=np. eye(8)
+print(arr11)
+arr12=np. eye(3,17)
+print(arr12
+
+
+
+
+
+
+
+    
+    
+
+
 cprint("=== Personal Profile ===")
 
 name = input("Name: ")
