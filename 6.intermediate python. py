@@ -1,4 +1,9 @@
-Name=prince num1=int(input('please enter your favourite number b\w 0 to 100.'))
+first_name = "Rahul"
+last_name = "Kumar"
+
+full_name = first_name + " " + last_name
+
+print(full_name)Name=prince num1=int(input('please enter your favourite number b\w 0 to 100.'))
 num2=int(input('please enter your another number b\w 0 to 100.'))
 if num1>=num2:
     print('your favorite number is the best number.')
